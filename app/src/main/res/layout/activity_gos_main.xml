@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yitiji_backgroud"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_page"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_login"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="155dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/yitiji_online_background" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/online_name"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="25dp"
+            android:text="10"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginLeft="109dp"
+            android:layout_marginTop="25dp"
+            android:text="/台"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="155dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="185dp"
+            android:src="@mipmap/yitiji_unonline_background" />
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/unonline_name"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="25dp"
+            android:text="10"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="25dp"
+            android:text="/台"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout00"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="#F8DC26" >
+
+        <LinearLayout
+            android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@mipmap/yitiji_home_tab_y" />
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="首页"
+                android:textColor="@color/gray"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@mipmap/yitiji_user_tab_n" />
+
+            <TextView
+                android:id="@+id/tx3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/personal_center"
+                android:textColor="@color/gray"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <!--
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/messagecenter"
+            android:textColor="#000000"
+            android:textSize="18.0dip" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/personal_center"
+            android:textColor="#000000"
+            android:textSize="18.0dip" />
+        -->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cursor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:scaleType="matrix"
+        android:src="@drawable/roller"
+        android:visibility="gone" />
+
+</LinearLayout>

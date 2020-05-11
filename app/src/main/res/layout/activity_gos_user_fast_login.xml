@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yitiji_backgroud"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:id="@+id/textview_fast_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yanzhengma_name"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fast_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_fast_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/yitiji_logo_login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yitiji_input_1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/yitiji_logo_yonghu" />
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:digits="@string/name_digits"
+            android:ems="10"
+            android:hint="@string/name_hint"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_gray_light"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnGetCode"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/getcode"
+            android:background="@drawable/yitiji_backgroud"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/yitiji_input_2"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/yitiji_yanzhengma" />
+
+        <EditText
+            android:id="@+id/etCode"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/code_hint"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_gray_light"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/register"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:color="@color/white"
+        android:layout_width="348px"
+        android:layout_height="88px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/yitji_btn_login"
+        android:text="@string/login" />
+
+</LinearLayout>

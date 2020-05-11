@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yitiji_backgroud">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_details"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/LinearLayout0"
+        android:layout_marginTop="70dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020年03月18日"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/LinearLayout01"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备类型 智能工地一体机"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/LinearLayout02"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/yitiji_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DC-400-00"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="455dp"
+        android:layout_alignTop="@+id/LinearLayout03"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:background="@drawable/yitiji_home_page_b">
+
+    </RelativeLayout>
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="设备名称:"-->
+<!--        android:textSize="14dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:textColor="@color/black"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/button01"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:textSize="14dp"-->
+<!--        android:background="@color/white" />-->
+    <RelativeLayout
+        android:id="@+id/Relativelayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/Relativelayout01">
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="310dp"
+                android:src="@mipmap/yitiji_buttay" />
+        <ImageButton
+            android:id="@+id/yitiji_buttay"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:alpha="0"/>
+
+
+            android:background="@color/white"
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="295dp"
+            android:text="电池电量"
+            android:textSize="10dp"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="300dp"
+            android:text="10%"
+            android:textSize="15dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="170dp"
+            android:src="@mipmap/yitiji_safe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="150dp"
+            android:text="安全网关状态"
+            android:textSize="10dp"
+            android:textColor="@color/gray" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="165dp"
+            android:text="正常"
+            android:textSize="15dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@mipmap/yitiji_wifi_state" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:text="在线状态"
+            android:textSize="10dp"
+            android:textColor="@color/gray" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="35dp"
+            android:text="正常"
+            android:textSize="15dp"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Relativelayout02"
+        android:layout_marginTop="78dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_name_details"
+            android:textSize="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gray"/>
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="12dp"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Relativelayout03"
+        android:layout_marginTop="34dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_shiyongdanwei_details"
+            android:textSize="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gray"/>
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="12dp"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Relativelayout04"
+        android:layout_marginTop="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_username_details"
+            android:textSize="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gray"/>
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="12dp"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Relativelayout05"
+        android:layout_marginTop="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_userphone_details"
+            android:textSize="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gray"/>
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="12dp"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Relativelayout06"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camra_status"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="161dp"/>
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/camra_status_1_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/camra_status_4_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/camra_status_7_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="160dp"
+        android:text="@string/camra_status_2_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:text="@string/camra_status_5_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/camra_status_3_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="260dp"
+        android:text="@string/camra_status_6_normal"
+        android:textSize="8dp"
+        android:textColor="@color/black"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Relativelayout07"
+        android:layout_marginTop="95dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/byte_status"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="168dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:text="@string/byte_iccid"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="150dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:text="@string/byte_total"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="220dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:text="@string/byte_last_month"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="300dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:text="@string/byte_month"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout0001"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignBottom="@+id/Relativelayout01"
+        android:layout_marginBottom="-40dp"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@mipmap/yitiji_home_tab_y" />
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="首页"
+                android:textColor="@color/gray"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@mipmap/yitiji_user_tab_n" />
+
+            <TextView
+                android:id="@+id/tx3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/personal_center"
+                android:textColor="@color/gray"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <!--
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/messagecenter"
+            android:textColor="#000000"
+            android:textSize="18.0dip" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/personal_center"
+            android:textColor="#000000"
+            android:textSize="18.0dip" />
+        -->
+    </LinearLayout>
+
+</RelativeLayout>
